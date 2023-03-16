@@ -1,0 +1,7 @@
+vagrant init ubuntu/bionic64
+vagrant up
+vagrant ssh
+cd /vagrant
+python manage.py runserver 0.0.0.0:8000
+python -m venv ~/env
+source ~/env/bin/activate
